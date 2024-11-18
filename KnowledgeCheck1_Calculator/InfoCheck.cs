@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KnowledgeCheck1_Calculator
 {
-  internal class InfoCheck
+  class InfoCheck
   {
     public static void CheckType(string EquationType)
     {

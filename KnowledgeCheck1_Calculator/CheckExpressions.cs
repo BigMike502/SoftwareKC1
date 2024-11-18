@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace KnowledgeCheck1_Calculator
 {
-  internal class CheckExpressions
+  public class CheckExpressions
   {
 
     public static bool IsInputANumber(string number)
