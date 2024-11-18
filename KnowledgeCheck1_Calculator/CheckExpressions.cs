@@ -34,17 +34,5 @@ namespace KnowledgeCheck1_Calculator
         return false;
       }
     }
-
-    public static bool CheckYesOrNo(string YesOrNo)
-    {
-      if (Regex.Match(YesOrNo, @"^(?:yes\b|y\b|no\b|n\b)$").Success)
-      {
-        return true;
-      }
-      else
-      {
-        return false;
-      }
-    }
   }
 }
